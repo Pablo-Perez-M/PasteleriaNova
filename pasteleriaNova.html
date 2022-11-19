@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Nova</title>
+</head>
+<body>
+    <h1>Pastelería Nova, desde 2022</h1>
+    <section>
+        <img src="./imgPasteleriaNova/PasteleriaNova.png" alt="Logo de la Pastelería Nova">
+
+    </header>
+    <h2>Pasteles</h2>
+    <p>Todos los pasteles se pueden personalizar con adornos.</p>
+    <h3>Sabores de pasteles</h3>
+    <p>Si se desea combinar sabores el precio de cada uno se le sumara al precio del pastel seleccionado.</p>
+    <ul>
+        <li><b>Vanilla</b> ................................................... $275
+            <br>Sabor vainilla ......................................... $25</li>
+        <li><b>Chocolate</b> .............................................. $275
+            <br>Sabor chocolate ...................................... $25</li>
+        <li><b>Fresa</b> ...................................................... $275
+            <br>Sabor fresa ............................................. $25</li>
+        <li><b>Limón</b> .................................................... $275
+            <br>Sabor limón ............................................ $25</li>
+        <li><b>Café</b> ........................................................ $275
+            <br>Sabor café ............................................... $25</li>
+        <li><b>Oreo</b> ....................................................... $275
+            <br>Sabor oreo .............................................. $25</li>
+    </ul>
+    <hr>
+    <h3>Sabores especiales</h3>
+    <ul>
+        <li><b>Tres leches</b> ............................................. $300</li>
+        <li><b>Cajeta</b> ..................................................... $300</li>
+        <li><b>Napolitano</b> .............................................. $300</li>
+    </ul>
+    <hr>
+    <h3>Adornos</h3>
+    <ul>
+        <li><b>Crema pastelera</b> .................................... $50</li>
+        <li><b>Chispas de chocolate</b> ............................. $50</li>
+        <li><b>Fresas</b> ...................................................... $50</li>
+        <li><b>Crema chantilly</b> ..................................... $50</li>
+        <li><b>Betun</b> ...................................................... $50</li>
+        <li><b>Caramelo</b> ................................................ $50</li>
+        <li><b>Nuez</b> ........................................................ $50</li>
+        <li><b>Cajeta</b> ..................................................... $50</li>
+        <li><b>Chocolate derretido</b> ..............................  $50</li>
+        <li><b>Velas</b> ....................................................... $50</li>
+        <li><b>Mensajes</b> ................................................ $50</li>
+        <li><b>Imagenes</b> ................................................ $50</li>
+    </ul>
+    </section>
+    <hr>
+    <section>
+        <form action="">
+            <h2>Formulario de contacto  e información del pedido</h2>
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+            <br><br>
+            <label for="Teléfono">Teléfono</label><br>
+            <input type="number" id="Teléfono" name="Teléfono"  maxlength="10" placeholder="¿Cúal es tú teléfono?">
+            <br><br>
+            <label for="email">Correo electronico</label><br>
+            <input type="email" id="email" name="email" placeholder="¿A dónde se mandara el pedido?">
+            <br><br>
+            <label for="Descripción">Descripción general</label><br>
+            <input type="text" id="Descripción" name="Descripción" placeholder="Descripción genral del pastel">
+            <br><br>
+            <p>¿Qué pastel desea?</p>
+            <select>
+                <option value="Vainilla">Vainilla</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Fresa">Fresa</option>
+                <option value="Limón">Limón</option>
+                <option value="Café">Café</option>
+                <option value="Oreo">Oreo</option>
+                <option value="Tres leches">Tres leches</option>
+                <option value="Cajeta">Cajeta</option>
+                <option value="Napolitano">Napolitano</option>
+            </select>
+            <br><br>
+            <p>Selecciona el o los adornos qué deseé en su pastel</p>
+            <input type="checkbox" id="CremaPastelera" name="CremaPastelera" value="Cremapastelera">
+            <label for="CremaPastelera">Crema pastelera</label><br>
+            <input type="checkbox" id="ChispasChocolate" name="ChispasChocolate" value="Chispaschocolate">
+            <label for="ChispasChocolate">Chispas de chocolate</label><br>
+            <input type="checkbox" id="Fresas" name="Fresas" value="fresas">
+            <label for="Fresas">Fresas</label><br>
+            <input type="checkbox" id="CremaChantilly" name="CremaChantilly" value="Cremachantilly">
+            <label for="CremaChantilly">Crema chantilly</label><br>
+            <input type="checkbox" id="Betun" name="Betun" value="betun">
+            <label for="Betun">Betun</label><br>
+            <input type="checkbox" id="Caramelo" name="Caramelo" value="caramelo">
+            <label for="Caramelo">Caramelo</label><br>
+            <input type="checkbox" id="Nuez" name="Nuez" value="nuez">
+            <label for="Nuez">Nuez</label><br>
+            <input type="checkbox" id="Cajeta" name="Cajeta" value="cajeta">
+            <label for="Cajeta">Cajeta</label><br>
+            <input type="checkbox" id="ChocolateDerretido" name="ChocolateDerretido" value="Chocolate derretido">
+            <label for="ChocolateDerretido">Chocolate derretido</label><br>
+            <input type="checkbox" id="Velas" name="Velas" value="velas">
+            <label for="Velas">Velas</label><br>
+            <input type="checkbox" id="Mensajes" name="Mensajes" value="mensajes">
+            <label for="Mensajes">Mensajes</label><br>
+            <input type="checkbox" id="Imagenes" name="Imagenes" value="imagenes">
+            <label for="Imagenes">Imagenes</label><br>
+            <br><br>
+            <button type="submit">Enviar pedido</button>
+            <button type="reset">Restablecer</button>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h2>Pastelero</h2>
+            <p>Cantidad de sabores que quedan de pasteles</p>
+                <label for="Vainilla">Vainilla</label>
+                <input type="number" id="VainillaNumber" name="VainillaNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Chocolate">Chocolate</label>
+                <input type="number" id="ChocolateNumber" name="ChocolateNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Fresa">Fresa</label>
+                <input type="number" id="FresaNumber" name="FresaNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Limón">Limón</label>
+                <input type="number" id="LimónNumber" name="LimónNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Café">Café</label>
+                <input type="number" id="CaféNumber" name="CaféNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Oreo">Oreo</label>
+                <input type="number" id="OreoNumber" name="OreoNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Tres leches">Tres leches</label>
+                <input type="number" id="TresLechesNumber" name="TresLechesNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Cajeta">Cajeta</label>
+                <input type="number" id="CajetaNumber" name="CajetaNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Napolitano">Napolitano</label>
+                <input type="number" id="NapolitanoNumber" name="NapolitanoNumber" value="30" min="0" max="30">
+                <br>
+                <br><br>
+                <p>Cantidad de adornos que quedan de pasteles</p>
+                <label for="Crema pastelera">Crema pastelera</label>
+                <input type="number" id="CremaPasteleraNumber" name="CremaPasteleraNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Chispas de chocolate">Chispas de chocolate</label>
+                <input type="number" id="ChispasChocolateNumber" name="ChispasChocolateNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Fresas">Fresas</label>
+                <input type="number" id="FresasNumber" name="FresasNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Crema chantilly">Crema chantilly</label>
+                <input type="number" id="CremaChantillyNumber" name="CremaChantillyNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Betun">Betun</label>
+                <input type="number" id="BetunNumber" name="BetunNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Caramelo">Caramelo</label>
+                <input type="number" id="CarameloNumber" name="CarameloNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Nuez">Nuez</label>
+                <input type="number" id="NuezNumber" name="NuezNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Cajeta">Cajeta</label>
+                <input type="number" id="CajetaNumber" name="CajetaNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Chocolate derretido">Chocolate derretido</label>
+                <input type="number" id="ChocolateDerretidoNumber" name="ChocolaNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Velas">Velas</label>
+                <input type="number" id="VelasNumber" name="VelasNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Mensajes">Mensajes</label>
+                <input type="number" id="MensajesNumber" name="MensajesNumber" value="30" min="0" max="30">
+                <br>
+                <label for="Imagenes">Imagenes</label>
+                <input type="number" id="ImagenesNumber" name="ImagenesNumber" value="30" min="0" max="30">
+                <br>
+                <br><br>
+        <h3>Pedidos</h3>
+        <table>
+            <tr>
+                <th>N° de pedido</th>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Correo electronico</th>
+                <th>Sabor del Pastel</th>
+                <th>Adornos</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pablo</td>
+                <td>2134546562</td>
+                <td>pablo@correo.com</td>
+                <td>Tres leches</td>
+                <td>Cajeta y fresas</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Paola</td>
+                <td>0987651234</td>
+                <td>paola@correo.com</td>
+                <td>Chocolate y oreo</td>
+                <td>Crema pastelera, chocolate derretido y velas</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Daniel</td>
+                <td>5432167890</td>
+                <td>daniel@correo.com</td>
+                <td>Café</td>
+                <td>Crema chantilly</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>Acerca de nosotros</h2>
+        <h3>Ubicación</h3>
+        <p>Nos encontramos ubicados en la colonia Centro, calle Enrique Segoviano # 15</p>
+        <p>Si desea ver donde nos ubicamos. <a href="https://goo.gl/maps/jkSqVgbnDiLEVVqe6" target="_blank">Pulse aquí para ver la ubicación</a></p>
+        <h3>Teléfono</h3>
+        <p>Nuestro telefono es: <b>1234567890</b></p>
+        <h3>Horarios</h3>
+        <table>
+            <tr>
+                <th>Día</th>
+                <th>Apertura</th>
+                <th>Cierre</th>
+            </tr>
+            <tr>
+                <td>L- V</td>
+                <td>9am</td>
+                <td>6pm</td>
+            </tr>
+                <td>S - D</td>
+                <td>9am</td>
+                <td>7pm</td>
+            </tr>
+
+        </table>
+    </section>
+</body>
+</html>
